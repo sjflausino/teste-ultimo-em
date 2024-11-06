@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: teste-ultimo-em-location
+  description: Location to import all teste-ultimo-em catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
